@@ -61,10 +61,7 @@ align-items: center;
     justify-content: space-around;
 }
 
-button{
-    /* border-radius: px; */
-    margin: 20px;
-}
+
 
 .card:hover{
     background-color: rgb(83, 25, 25);
@@ -74,4 +71,3 @@ button{
     main {
         flex-direction: column;
         justify-content: space-around; }
-
