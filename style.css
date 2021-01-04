@@ -4,8 +4,6 @@
     box-sizing: border-box
     ;font-family: 'Playfair Display', serif;
 }
-
-
 .container{
     background-color: rgb(57, 52, 52);
     display: flex;
@@ -16,9 +14,7 @@
     align-items: center;
     /* justify-content: space-around; */
     justify-content: space-evenly;
-    
 }
-
 .logo{height: 40px;}
 li{
     /* border: solid black 2px;
@@ -29,24 +25,19 @@ li{
     padding: 14px;
 
 }
-
 li:hover{
     color: rgb(194, 42, 42);
     /* background-color: rgba(255, 0, 0, 0.054); */
 }
-
-
-
 main{
     height: 80vh;
     color:white;
-display: flex;
-justify-content: center;
-justify-content: space-around;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     justify-content: space-evenly;
 }
-
 .card{
     color: white;
     background-color: rgb(38, 73, 91);
@@ -60,13 +51,9 @@ align-items: center;
     justify-content: center;
     justify-content: space-around;
 }
-
-
-
 .card:hover{
     background-color: rgb(83, 25, 25);
 }
-
 @media only screen and (max-width: 600px) {
     main {
         flex-direction: column;
